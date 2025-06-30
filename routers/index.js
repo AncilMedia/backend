@@ -27,7 +27,7 @@ router.use('/notifications', require('./notification'));
 router.use('/settings', require('./settings/settings')); 
 
 // ✅ List management
-router.use('/lists', require('./lists'));
+router.use('/lists', require('./lists/lists'));
 
 // Health check route
 router.get('/test', (req, res) => {
