@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const List = require('../../lists/list');
+const List = require('../../models/lists/list');
 
 // ✅ GET all lists
 router.get('/', async (req, res) => {
